@@ -4,7 +4,7 @@
   "description": "Angular native form validators",
   "author": "https://github.com/anjmao",
   "license": "MIT",
-  "repository": "git@github.com:ng-validators/ng-validators.git",
+  "repository": "git@github.com:anjmao/ng-validators.git",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
