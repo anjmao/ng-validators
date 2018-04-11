@@ -25,63 +25,67 @@ import { rangeLength, RangeLengthValidator } from './range-length';
 import { url, UrlValidator } from './url';
 import { uuid, UUIDValidator } from './uuid';
 
+import { AbstractControl, ValidatorFn } from '@angular/forms';
+// make ts happy about unused imports
+(function (_: AbstractControl, _1: ValidatorFn) {})(null, null)
+
 export const CustomValidators = {
-  base64,
-  creditCard,
-  date,
-  dateISO,
-  digits,
-  email,
-  equal,
-  equalTo,
-  gt,
-  gte,
-  json,
-  lt,
-  lte,
-  max,
-  maxDate,
-  min,
-  minDate,
-  notEqual,
-  notEqualTo,
-  number,
-  range,
-  rangeLength,
-  url,
-  uuid
+    base64,
+    creditCard,
+    date,
+    dateISO,
+    digits,
+    email,
+    equal,
+    equalTo,
+    gt,
+    gte,
+    json,
+    lt,
+    lte,
+    max,
+    maxDate,
+    min,
+    minDate,
+    notEqual,
+    notEqualTo,
+    number,
+    range,
+    rangeLength,
+    url,
+    uuid
 };
 
 const CUSTOM_FORM_DIRECTIVES = [
-  Base64Validator,
-  CreditCardValidator,
-  DateValidator,
-  DateISOValidator,
-  DigitsValidator,
-  EmailValidator,
-  EqualValidator,
-  EqualToValidator,
-  GreaterThanValidator,
-  GreaterThanEqualValidator,
-  JSONValidator,
-  LessThanValidator,
-  LessThanEqualValidator,
-  MaxValidator,
-  MaxDateValidator,
-  MinValidator,
-  MinDateValidator,
-  NotEqualValidator,
-  NotEqualToValidator,
-  NumberValidator,
-  RangeValidator,
-  RangeLengthValidator,
-  UrlValidator,
-  UUIDValidator
+    Base64Validator,
+    CreditCardValidator,
+    DateValidator,
+    DateISOValidator,
+    DigitsValidator,
+    EmailValidator,
+    EqualValidator,
+    EqualToValidator,
+    GreaterThanValidator,
+    GreaterThanEqualValidator,
+    JSONValidator,
+    LessThanValidator,
+    LessThanEqualValidator,
+    MaxValidator,
+    MaxDateValidator,
+    MinValidator,
+    MinDateValidator,
+    NotEqualValidator,
+    NotEqualToValidator,
+    NumberValidator,
+    RangeValidator,
+    RangeLengthValidator,
+    UrlValidator,
+    UUIDValidator
 ];
 
 @NgModule({
-  declarations: [CUSTOM_FORM_DIRECTIVES],
-  exports: [CUSTOM_FORM_DIRECTIVES]
+    declarations: [CUSTOM_FORM_DIRECTIVES],
+    exports: [CUSTOM_FORM_DIRECTIVES]
 })
 export class CustomFormsModule {
 }
