@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.10.3"></a>
+## [0.10.3](https://github.com/anjmao/ng-validators/compare/v0.10.2...v0.10.3) (2018-04-11)
+
+
+
 <a name="0.10.2"></a>
 ## 0.10.2 (2018-04-11)
 
