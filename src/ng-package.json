@@ -1,0 +1,7 @@
+{
+  "dest": "../dist",
+  "lib": {
+    "entryFile": "index.ts",
+    "flatModuleFile": "ng-validators"
+  }
+}

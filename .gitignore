@@ -1,0 +1,7 @@
+.idea/
+typings/
+node_modules/
+dist/
+.DS_Store
+aot/
+!example/dist
