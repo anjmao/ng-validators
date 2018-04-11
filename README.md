@@ -2,8 +2,8 @@
 [![Build Status][travis-badge]][travis-badge-url]
 
 
-[travis-badge]: https://travis-ci.org/ng-validators/ng-validators.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/ng-validators/ng-validators
+[travis-badge]: https://travis-ci.org/anjmao/ng-validators.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/anjmao/ng-validators
 
 # Description
 
