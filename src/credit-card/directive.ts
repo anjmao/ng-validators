@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { creditCard } from './';
+import { creditCard } from './validator';
 
 const CREDIT_CARD_VALIDATOR: any = {
     provide: NG_VALIDATORS,

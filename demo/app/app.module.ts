@@ -8,7 +8,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { LayoutHeaderComponent } from './layout/header.component';
 import { LayoutSidenavComponent } from './layout/sidenav-component';
-import { CustomFormsModule } from '@ng-validators/ng-validators';
 import { Required } from './examples/required';
 import { Minlength } from './examples/minlength';
 import { Maxlength } from './examples/maxlength';
@@ -39,6 +38,7 @@ import { Url } from './examples/url';
 import { Uuid } from './examples/uuid';
 import { CheckoutFormComponent } from './examples/checkout-form/checkout-form.component';
 import { ChechoutFormModule } from './examples/checkout-form/checkout-form.module';
+import { AllValidatorsModule } from './all-validators.module';
 
 export const appRoutes: Routes = [
     {
@@ -83,7 +83,7 @@ export const appRoutes: Routes = [
         CommonModule,
         FormsModule,
         ReactiveFormsModule,
-        CustomFormsModule,
+        AllValidatorsModule,
         HttpClientModule,
         ChechoutFormModule,
         NgbModule.forRoot(),

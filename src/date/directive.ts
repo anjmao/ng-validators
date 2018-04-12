@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { date } from './';
+import { date } from './validator';
 
 const DATE_VALIDATOR: any = {
     provide: NG_VALIDATORS,

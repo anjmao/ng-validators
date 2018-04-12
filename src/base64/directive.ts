@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { base64 } from './';
+import { base64 } from './validator';
 
 const BASE64_VALIDATOR: any = {
     provide: NG_VALIDATORS,

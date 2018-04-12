@@ -1,7 +1,7 @@
 import { Directive, Input, forwardRef, OnInit, SimpleChanges, OnChanges } from '@angular/core';
 import { NG_VALIDATORS, Validator, ValidatorFn, AbstractControl } from '@angular/forms';
 
-import { equal } from './index';
+import { equal } from './validator';
 
 const EQUAL_VALIDATOR: any = {
     provide: NG_VALIDATORS,

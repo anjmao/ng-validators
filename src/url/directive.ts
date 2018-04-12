@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { url } from './';
+import { url } from './validator';
 
 const URL_VALIDATOR: any = {
   provide: NG_VALIDATORS,

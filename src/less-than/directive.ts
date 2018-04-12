@@ -1,7 +1,7 @@
 import { Directive, Input, forwardRef, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { NG_VALIDATORS, Validator, ValidatorFn, AbstractControl } from '@angular/forms';
 
-import { lt } from './';
+import { lt } from './validator';
 
 const LESS_THAN_VALIDATOR: any = {
     provide: NG_VALIDATORS,

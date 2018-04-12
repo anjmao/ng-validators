@@ -1,7 +1,7 @@
 import { Directive, Input, forwardRef, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { NG_VALIDATORS, Validator, ValidatorFn, AbstractControl } from '@angular/forms';
 
-import { uuid } from './';
+import { uuid } from './validator';
 
 const UUID_VALIDATOR: any = {
     provide: NG_VALIDATORS,

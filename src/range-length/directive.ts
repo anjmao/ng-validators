@@ -1,7 +1,7 @@
 import { Directive, Input, forwardRef, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { NG_VALIDATORS, Validator, ValidatorFn, AbstractControl } from '@angular/forms';
 
-import { rangeLength } from './';
+import { rangeLength } from './validator';
 
 const RANGE_LENGTH_VALIDATOR: any = {
     provide: NG_VALIDATORS,

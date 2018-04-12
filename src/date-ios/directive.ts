@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { dateISO } from './';
+import { dateISO } from './validator';
 
 const DATE_ISO_VALIDATOR: any = {
     provide: NG_VALIDATORS,

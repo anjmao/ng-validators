@@ -1,7 +1,7 @@
 import { Directive, forwardRef } from '@angular/core';
 import { NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 
-import { email } from './index';
+import { email } from './validator';
 
 const EMAIL_VALIDATOR: any = {
     provide: NG_VALIDATORS,
