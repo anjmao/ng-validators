@@ -4,11 +4,13 @@ import { NgbFormControl } from './ngb-form-control.directive';
 import { NgbFormControlError } from './ngb-form-control-error.directive';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
     imports: [
         CommonModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        NgSelectModule
     ],
     declarations: [
         CheckoutFormComponent,

@@ -26,6 +26,7 @@
     "@angular/platform-browser-dynamic": "^5.2.9",
     "@angular/router": "^5.2.9",
     "@ng-bootstrap/ng-bootstrap": "^1.1.0",
+    "@ng-select/ng-select": "^0.36.2",
     "@types/jasmine": "^2.5.36",
     "@types/node": "^6.0.87",
     "@types/selenium-webdriver": "2.53.39",
