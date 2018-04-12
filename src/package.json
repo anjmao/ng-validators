@@ -1,6 +1,6 @@
 {
   "name": "@ng-validators/ng-validators",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "description": "Angular native form validators",
   "author": "https://github.com/anjmao",
   "license": "MIT",
