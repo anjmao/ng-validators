@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.11.0"></a>
+# [0.11.0](https://github.com/anjmao/ng-validators/compare/v0.10.4...v0.11.0) (2018-04-22)
+
+
+### Features
+
+* add ng validators module for template driven validator directives ([0696cb5](https://github.com/anjmao/ng-validators/commit/0696cb5))
+
+
+
 <a name="0.10.4"></a>
 ## [0.10.4](https://github.com/anjmao/ng-validators/compare/v0.10.3...v0.10.4) (2018-04-12)
 
