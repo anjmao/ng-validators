@@ -42,16 +42,15 @@ this.formBuilder.group({
 ```
 
 ### Usage in template driven forms.
-Import only validators you need for you form and add them to you @NgModule declarations.
+Import NgValidatorsModule @NgModule declarations.
 
 ```ts
-import { GreaterThanValidator } from '@ng-validators/ng-validators';
+import { NgValidatorsModule } from '@ng-validators/ng-validators';
 
 @NgModule({
-    declarations: [GreaterThanValidator],
-    exports: [GreaterThanValidator]
+    imports: [NgValidatorsModule]
 })
-export class MyValidatorsModule {
+export class AppModule {
 }
 ```
 

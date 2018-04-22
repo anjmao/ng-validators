@@ -38,7 +38,7 @@ import { Url } from './examples/url';
 import { Uuid } from './examples/uuid';
 import { CheckoutFormComponent } from './examples/checkout-form/checkout-form.component';
 import { ChechoutFormModule } from './examples/checkout-form/checkout-form.module';
-import { AllValidatorsModule } from './all-validators.module';
+import { NgValidatorsModule } from '@ng-validators/ng-validators';
 
 export const appRoutes: Routes = [
     {
@@ -83,7 +83,7 @@ export const appRoutes: Routes = [
         CommonModule,
         FormsModule,
         ReactiveFormsModule,
-        AllValidatorsModule,
+        NgValidatorsModule,
         HttpClientModule,
         ChechoutFormModule,
         NgbModule.forRoot(),

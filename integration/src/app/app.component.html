@@ -1,4 +1,10 @@
-<form class="form-horizontal" novalidate>
-  <input class="form-control" type="text" ngModel name="equal" #equal="ngModel" equal="aabbcc"/>
+<form novalidate>
+  <input type="text" ngModel name="equal" #equal="ngModel" equal="aabbcc"/>
   <p style="color:red" *ngIf="equal?.errors?.equal">equal error</p>
 </form>
+
+<form class="form-horizontal" [formGroup]="rf" novalidate>
+  <input formControlName="name" type="text" name="equal"/>
+  <p style="color:red" *ngIf="rf.get('name').errors?.equal">equal error</p>
+</form>
+

@@ -15,6 +15,7 @@ const JSON_VALIDATOR: any = {
 })
 export class JSONValidator implements Validator {
     validate(c: AbstractControl): { [key: string]: any } {
+        console.log('fuck')
         return json(c);
     }
 }

@@ -1,17 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { EqualValidator } from '@ng-validators/ng-validators';
+import { NgValidatorsModule } from '@ng-validators/ng-validators';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    EqualValidator
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    NgValidatorsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
