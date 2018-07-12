@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.12.0"></a>
+# [0.12.0](https://github.com/anjmao/ng-validators/compare/v0.11.0...v0.12.0) (2018-07-12)
+
+
+### Features
+
+* update angular ([#3](https://github.com/anjmao/ng-validators/issues/3)) ([6eee11d](https://github.com/anjmao/ng-validators/commit/6eee11d)), closes [#2](https://github.com/anjmao/ng-validators/issues/2)
+
+
+
 <a name="0.11.0"></a>
 # [0.11.0](https://github.com/anjmao/ng-validators/compare/v0.10.4...v0.11.0) (2018-04-22)
 
